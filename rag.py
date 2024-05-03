@@ -69,4 +69,6 @@ def main():
         print(model(prompt))
         print("\nTime taken: ", time.time() - start)
 
-main()
+
+if __name__ == "__main__":
+    main()
